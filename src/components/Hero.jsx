@@ -1,5 +1,8 @@
+import logo from "../assets/logo.jpg";
+import bg from "../assets/background.jpg";
+
 export default function Hero() {
-  const phone = "8111831107";
+  const phone = "918111831107";
 
   const getWhatsAppLink = (message) => {
     return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
@@ -10,10 +13,9 @@ export default function Hero() {
 
       {/* Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center blur-[2px]"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f')",
+          backgroundImage: `url(${bg})`,
         }}
       ></div>
 
@@ -25,7 +27,7 @@ export default function Hero() {
 
         {/* Logo */}
         <img 
-          src="/src/assets/logo.jpg" 
+          src={logo} 
           alt="Nfit Club"
           className="w-40 md:w-56 mx-auto mb-6"
         />
