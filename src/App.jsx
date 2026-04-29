@@ -13,11 +13,11 @@ export default function App() {
     <div className="bg-bg text-white">
       <Navbar />
       <Hero />
-      <Cta />
+      <CTA />
       <Services />
-      <Whychoose/>
+      <WhyChoose/>
       <Pricing />
-      <Transformation />
+      <Transformations />
       <Testimonials />
       <Contact />
 
