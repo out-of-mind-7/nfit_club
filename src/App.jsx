@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import CTA from "./components/CTA";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
-import Transformations from "./components/Transformation";
+import Transformations from "./components/Transformations";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import WhyChoose from "./components/WhyChoose";
