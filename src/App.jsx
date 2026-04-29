@@ -1,21 +1,21 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import CTA from "./components/CTA";
+import CTA from "./components/Cta";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
 import Transformations from "./components/Transformations";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import WhyChoose from "./components/WhyChoose";
+import WhyChoose from "./components/Whychoose";
 
 export default function App() {
   return (
     <div className="bg-bg text-white">
       <Navbar />
       <Hero />
-      <CTA />
+      <Cta />
       <Services />
-      <WhyChoose/>
+      <Whychoose/>
       <Pricing />
       <Transformation />
       <Testimonials />
